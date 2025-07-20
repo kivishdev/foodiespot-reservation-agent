@@ -9,8 +9,8 @@ from datetime import datetime, timedelta
 from backend.agent import FoodieSpotAgent
 
 # Load environment variables
-load_dotenv()  # Add this line
-api_key = st.secrets["OPENROUTER_API_KEY"]
+load_dotenv()
+api_key = st.secrets.get("OPENROUTER_API_KEY", os.getenv("OPENROUTER_API_KEY"))
 
 # Page config
 st.set_page_config(
