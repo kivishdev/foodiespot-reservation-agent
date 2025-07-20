@@ -1,0 +1,51 @@
+# Environment Variables
+.env
+*.env
+
+# API Keys and Secrets
+config.py
+secrets.py
+
+# Test Files 
+test_agent.py
+test_tools.py
+test_*.py
+
+# Python Cache Files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python Init Files 
+__init__.py
+*/__init__.py
+
+# Python Virtual Environment
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+
+# Streamlit
+.streamlit/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.temp

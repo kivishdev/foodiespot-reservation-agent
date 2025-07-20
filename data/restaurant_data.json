@@ -1,0 +1,634 @@
+{
+  "restaurants": [
+  {
+    "id": "r001",
+    "name": "The Spice House",
+    "location": "Downtown",
+    "cuisine": ["Indian", "Vegetarian"],
+    "seating_capacity": 60,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 4,
+        "19:00": 3,
+        "20:00": 2
+      }
+    },
+    "ambience": "casual",
+    "rating": 4.5,
+    "features": ["outdoor seating", "live music"],
+    "contact": {
+      "phone": "123-456-7890",
+      "email": "spicehouse@foodiespot.com"
+    }
+  },
+  {
+    "id": "r002",
+    "name": "Sakura Garden",
+    "location": "Midtown",
+    "cuisine": ["Japanese", "Sushi"],
+    "seating_capacity": 50,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 5,
+        "19:00": 4,
+        "20:00": 2
+      }
+    },
+    "ambience": "romantic",
+    "rating": 4.8,
+    "features": ["rooftop", "romantic lighting"],
+    "contact": {
+      "phone": "234-567-8901",
+      "email": "sakura@foodiespot.com"
+    }
+  },
+  {
+    "id": "r003",
+    "name": "Casa di Pasta",
+    "location": "Uptown",
+    "cuisine": ["Italian"],
+    "seating_capacity": 80,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 6,
+        "19:00": 5,
+        "20:00": 3
+      }
+    },
+    "ambience": "family",
+    "rating": 4.2,
+    "features": ["kids menu", "parking available"],
+    "contact": {
+      "phone": "345-678-9012",
+      "email": "casa@foodiespot.com"
+    }
+  },
+  {
+    "id": "r004",
+    "name": "Green Leaf Café",
+    "location": "Riverside",
+    "cuisine": ["Vegan", "Organic"],
+    "seating_capacity": 40,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 2,
+        "19:00": 3,
+        "20:00": 1
+      }
+    },
+    "ambience": "casual",
+    "rating": 4.6,
+    "features": ["pet friendly", "vegan desserts"],
+    "contact": {
+      "phone": "456-789-0123",
+      "email": "greenleaf@foodiespot.com"
+    }
+  },
+  {
+    "id": "r005",
+    "name": "El Rancho Grill",
+    "location": "Old Town",
+    "cuisine": ["Mexican", "Tex-Mex"],
+    "seating_capacity": 70,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 4,
+        "19:00": 4,
+        "20:00": 2
+      }
+    },
+    "ambience": "lively",
+    "rating": 4.3,
+    "features": ["live mariachi", "happy hour"],
+    "contact": {
+      "phone": "567-890-1234",
+      "email": "rancho@foodiespot.com"
+    }
+  },
+  {
+    "id": "r006",
+    "name": "Burger Nation",
+    "location": "Midtown",
+    "cuisine": ["American", "Fast Food"],
+    "seating_capacity": 90,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 8,
+        "19:00": 5,
+        "20:00": 3
+      }
+    },
+    "ambience": "lively",
+    "rating": 4.1,
+    "features": ["drive-thru", "sports TV"],
+    "contact": {
+      "phone": "678-901-2345",
+      "email": "burger@foodiespot.com"
+    }
+  },
+  {
+    "id": "r007",
+    "name": "Ocean's Catch",
+    "location": "Seaside",
+    "cuisine": ["Seafood"],
+    "seating_capacity": 70,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 6,
+        "19:00": 4,
+        "20:00": 2
+      }
+    },
+    "ambience": "fine dining",
+    "rating": 4.7,
+    "features": ["ocean view", "wine pairings"],
+    "contact": {
+      "phone": "789-012-3456",
+      "email": "ocean@foodiespot.com"
+    }
+  },
+  {
+    "id": "r008",
+    "name": "Taste of Thailand",
+    "location": "Downtown",
+    "cuisine": ["Thai"],
+    "seating_capacity": 55,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 3,
+        "19:00": 4,
+        "20:00": 3
+      }
+    },
+    "ambience": "cozy",
+    "rating": 4.4,
+    "features": ["traditional decor", "mild to spicy"],
+    "contact": {
+      "phone": "890-123-4567",
+      "email": "thai@foodiespot.com"
+    }
+  },
+  {
+    "id": "r009",
+    "name": "Brew & Beans",
+    "location": "Uptown",
+    "cuisine": ["Cafe", "Bakery"],
+    "seating_capacity": 35,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 2,
+        "19:00": 2,
+        "20:00": 2
+      }
+    },
+    "ambience": "casual",
+    "rating": 4.0,
+    "features": ["free Wi-Fi", "open mic"],
+    "contact": {
+      "phone": "901-234-5678",
+      "email": "brewbeans@foodiespot.com"
+    }
+  },
+  {
+    "id": "r010",
+    "name": "Himalayan Bites",
+    "location": "Old Town",
+    "cuisine": ["Nepalese", "Tibetan"],
+    "seating_capacity": 45,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 3,
+        "19:00": 3,
+        "20:00": 2
+      }
+    },
+    "ambience": "family",
+    "rating": 4.2,
+    "features": ["momoshack", "hot tea service"],
+    "contact": {
+      "phone": "012-345-6789",
+      "email": "himalayan@foodiespot.com"
+    }
+  },
+  {
+    "id": "r011",
+    "name": "Kebab King",
+    "location": "Midtown",
+    "cuisine": ["Middle Eastern"],
+    "seating_capacity": 60,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 5,
+        "19:00": 4,
+        "20:00": 4
+      }
+    },
+    "ambience": "casual",
+    "rating": 4.3,
+    "features": ["halal", "family packs"],
+    "contact": {
+      "phone": "111-222-3333",
+      "email": "kebab@foodiespot.com"
+    }
+  },
+  {
+    "id": "r012",
+    "name": "Zen Noodles",
+    "location": "Riverside",
+    "cuisine": ["Asian Fusion"],
+    "seating_capacity": 50,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 4,
+        "19:00": 3,
+        "20:00": 2
+      }
+    },
+    "ambience": "minimalist",
+    "rating": 4.5,
+    "features": ["gluten-free", "light music"],
+    "contact": {
+      "phone": "222-333-4444",
+      "email": "zen@foodiespot.com"
+    }
+  },
+  {
+    "id": "r013",
+    "name": "Curry Junction",
+    "location": "Downtown",
+    "cuisine": ["Indian"],
+    "seating_capacity": 85,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 6,
+        "19:00": 5,
+        "20:00": 4
+      }
+    },
+    "ambience": "family",
+    "rating": 4.3,
+    "features": ["buffet", "dessert bar"],
+    "contact": {
+      "phone": "333-444-5555",
+      "email": "curry@foodiespot.com"
+    }
+  },
+  {
+    "id": "r014",
+    "name": "The Garden Table",
+    "location": "Uptown",
+    "cuisine": ["Vegan", "Farm-to-Table"],
+    "seating_capacity": 40,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 3,
+        "19:00": 3,
+        "20:00": 2
+      }
+    },
+    "ambience": "eco-friendly",
+    "rating": 4.6,
+    "features": ["organic", "eco utensils"],
+    "contact": {
+      "phone": "444-555-6666",
+      "email": "garden@foodiespot.com"
+    }
+  },
+  {
+    "id": "r015",
+    "name": "Tandoori Flames",
+    "location": "Old Town",
+    "cuisine": ["North Indian", "BBQ"],
+    "seating_capacity": 75,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 5,
+        "19:00": 5,
+        "20:00": 3
+      }
+    },
+    "ambience": "lively",
+    "rating": 4.4,
+    "features": ["open kitchen", "grill platters"],
+    "contact": {
+      "phone": "555-666-7777",
+      "email": "tandoori@foodiespot.com"
+    }
+  },
+  {
+    "id": "r016",
+    "name": "Le Petit Bistro",
+    "location": "Arts District",
+    "cuisine": ["French"],
+    "seating_capacity": 45,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 3,
+        "19:00": 4,
+        "20:00": 2
+      }
+    },
+    "ambience": "romantic",
+    "rating": 4.7,
+    "features": ["wine cellar", "candlelit tables"],
+    "contact": {
+      "phone": "666-777-8888",
+      "email": "bistro@foodiespot.com"
+    }
+  },
+  {
+    "id": "r017",
+    "name": "Seoul Kitchen",
+    "location": "Koreatown",
+    "cuisine": ["Korean", "BBQ"],
+    "seating_capacity": 65,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 5,
+        "19:00": 6,
+        "20:00": 4
+      }
+    },
+    "ambience": "lively",
+    "rating": 4.5,
+    "features": ["table grills", "karaoke rooms"],
+    "contact": {
+      "phone": "777-888-9999",
+      "email": "seoul@foodiespot.com"
+    }
+  },
+  {
+    "id": "r018",
+    "name": "Mama Rosa's",
+    "location": "Little Italy",
+    "cuisine": ["Italian", "Pizza"],
+    "seating_capacity": 95,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 8,
+        "19:00": 7,
+        "20:00": 5
+      }
+    },
+    "ambience": "family",
+    "rating": 4.1,
+    "features": ["wood-fired oven", "large groups"],
+    "contact": {
+      "phone": "888-999-0000",
+      "email": "rosa@foodiespot.com"
+    }
+  },
+  {
+    "id": "r019",
+    "name": "Dragon Palace",
+    "location": "Chinatown",
+    "cuisine": ["Chinese", "Dim Sum"],
+    "seating_capacity": 120,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 10,
+        "19:00": 8,
+        "20:00": 6
+      }
+    },
+    "ambience": "grand",
+    "rating": 4.4,
+    "features": ["banquet halls", "lazy susan tables"],
+    "contact": {
+      "phone": "999-000-1111",
+      "email": "dragon@foodiespot.com"
+    }
+  },
+  {
+    "id": "r020",
+    "name": "Coastal Breeze",
+    "location": "Marina",
+    "cuisine": ["Mediterranean", "Seafood"],
+    "seating_capacity": 85,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 7,
+        "19:00": 6,
+        "20:00": 4
+      }
+    },
+    "ambience": "upscale casual",
+    "rating": 4.6,
+    "features": ["harbor view", "outdoor deck"],
+    "contact": {
+      "phone": "000-111-2222",
+      "email": "coastal@foodiespot.com"
+    }
+  },
+  {
+    "id": "r021",
+    "name": "The Steakhouse",
+    "location": "Financial District",
+    "cuisine": ["American", "Steakhouse"],
+    "seating_capacity": 100,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 8,
+        "19:00": 7,
+        "20:00": 5
+      }
+    },
+    "ambience": "upscale",
+    "rating": 4.8,
+    "features": ["premium cuts", "whiskey bar"],
+    "contact": {
+      "phone": "111-222-3333",
+      "email": "steakhouse@foodiespot.com"
+    }
+  },
+  {
+    "id": "r022",
+    "name": "Tapas Barcelona",
+    "location": "Cultural Quarter",
+    "cuisine": ["Spanish", "Tapas"],
+    "seating_capacity": 55,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 4,
+        "19:00": 5,
+        "20:00": 3
+      }
+    },
+    "ambience": "vibrant",
+    "rating": 4.3,
+    "features": ["flamenco nights", "sangria bar"],
+    "contact": {
+      "phone": "222-333-4444",
+      "email": "tapas@foodiespot.com"
+    }
+  },
+  {
+    "id": "r023",
+    "name": "Bombay Street",
+    "location": "Tech District",
+    "cuisine": ["Indian", "Street Food"],
+    "seating_capacity": 70,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 6,
+        "19:00": 5,
+        "20:00": 4
+      }
+    },
+    "ambience": "modern casual",
+    "rating": 4.2,
+    "features": ["chaat counter", "spice bar"],
+    "contact": {
+      "phone": "333-444-5555",
+      "email": "bombay@foodiespot.com"
+    }
+  },
+  {
+    "id": "r024",
+    "name": "Nordic Table",
+    "location": "Hillside",
+    "cuisine": ["Scandinavian"],
+    "seating_capacity": 40,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 3,
+        "19:00": 4,
+        "20:00": 2
+      }
+    },
+    "ambience": "minimalist",
+    "rating": 4.5,
+    "features": ["seasonal menu", "natural lighting"],
+    "contact": {
+      "phone": "444-555-6666",
+      "email": "nordic@foodiespot.com"
+    }
+  },
+  {
+    "id": "r025",
+    "name": "BBQ Smokehouse",
+    "location": "Warehouse District",
+    "cuisine": ["American", "BBQ"],
+    "seating_capacity": 80,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 6,
+        "19:00": 7,
+        "20:00": 5
+      }
+    },
+    "ambience": "rustic",
+    "rating": 4.4,
+    "features": ["smoker on-site", "craft beer"],
+    "contact": {
+      "phone": "555-666-7777",
+      "email": "bbq@foodiespot.com"
+    }
+  },
+  {
+    "id": "r026",
+    "name": "Pho Saigon",
+    "location": "University Area",
+    "cuisine": ["Vietnamese"],
+    "seating_capacity": 50,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 4,
+        "19:00": 5,
+        "20:00": 3
+      }
+    },
+    "ambience": "casual",
+    "rating": 4.3,
+    "features": ["24-hour service", "student discount"],
+    "contact": {
+      "phone": "666-777-8888",
+      "email": "pho@foodiespot.com"
+    }
+  },
+  {
+    "id": "r027",
+    "name": "The Rooftop",
+    "location": "Skyline District",
+    "cuisine": ["Modern American", "Fusion"],
+    "seating_capacity": 60,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 5,
+        "19:00": 4,
+        "20:00": 3
+      }
+    },
+    "ambience": "trendy",
+    "rating": 4.6,
+    "features": ["city views", "craft cocktails"],
+    "contact": {
+      "phone": "777-888-9999",
+      "email": "rooftop@foodiespot.com"
+    }
+  },
+  {
+    "id": "r028",
+    "name": "Breakfast Club",
+    "location": "Suburban Plaza",
+    "cuisine": ["American", "Breakfast"],
+    "seating_capacity": 75,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 6,
+        "19:00": 7,
+        "20:00": 5
+      }
+    },
+    "ambience": "family",
+    "rating": 4.0,
+    "features": ["all-day breakfast", "kids eat free"],
+    "contact": {
+      "phone": "888-999-0000",
+      "email": "breakfast@foodiespot.com"
+    }
+  },
+  {
+    "id": "r029",
+    "name": "Ethiopian Spice",
+    "location": "Heritage District",
+    "cuisine": ["Ethiopian", "African"],
+    "seating_capacity": 45,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 3,
+        "19:00": 4,
+        "20:00": 2
+      }
+    },
+    "ambience": "authentic",
+    "rating": 4.4,
+    "features": ["traditional seating", "coffee ceremony"],
+    "contact": {
+      "phone": "999-000-1111",
+      "email": "ethiopian@foodiespot.com"
+    }
+  },
+  {
+    "id": "r030",
+    "name": "Farm Fresh Kitchen",
+    "location": "Green Valley",
+    "cuisine": ["Farm-to-Table", "American"],
+    "seating_capacity": 55,
+    "available_tables": {
+      "2025-05-27": {
+        "18:00": 4,
+        "19:00": 5,
+        "20:00": 3
+      }
+    },
+    "ambience": "rustic modern",
+    "rating": 4.7,
+    "features": ["local ingredients", "seasonal menu"],
+    "contact": {
+      "phone": "000-111-2222",
+      "email": "farmfresh@foodiespot.com"
+    }
+  }
+]
+}
