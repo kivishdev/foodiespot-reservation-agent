@@ -6,7 +6,7 @@ class LlamaClient:
     def __init__(self, api_key):
         self.api_key = api_key
         self.url = "https://openrouter.ai/api/v1/chat/completions"
-        self.model = "meta-llama/llama-3.1-8b-instruct:free"
+        self.model = "meta-llama/llama-3.1-8b-instruct"
         log_message("LlamaClient initialized")
     
     def chat_completion(self, messages, max_tokens=500):
