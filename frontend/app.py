@@ -10,6 +10,7 @@ from backend.agent import FoodieSpotAgent
 
 # Load environment variables
 load_dotenv()  # Add this line
+api_key = st.secrets["OPENROUTER_API_KEY"]
 
 # Page config
 st.set_page_config(
